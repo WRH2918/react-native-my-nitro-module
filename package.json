@@ -57,12 +57,12 @@
     "@semantic-release/git": "^10.0.1",
     "@types/jest": "^29.5.12",
     "@types/react": "19.2.0",
+    "conventional-changelog-conventionalcommits": "^10.2.1",
     "nitrogen": "0.37.0",
     "react": "19.2.3",
     "react-native": "0.86.0",
     "react-native-builder-bob": "^0.40.18",
     "react-native-nitro-modules": "0.37.0",
-    "conventional-changelog-conventionalcommits": "^10.2.1",
     "semantic-release": "^25.0.7",
     "typescript": "^6.0.3"
   },
@@ -70,6 +70,9 @@
     "react": "*",
     "react-native": "*",
     "react-native-nitro-modules": "*"
+  },
+  "resolutions": {
+    "conventional-changelog-writer": "9.2.1"
   },
   "eslintConfig": {
     "root": true,
@@ -118,5 +121,6 @@
         }
       ]
     ]
-  }
+  },
+  "packageManager": "yarn@3.6.4"
 }
