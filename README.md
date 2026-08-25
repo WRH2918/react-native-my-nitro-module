@@ -8,7 +8,7 @@ react-native-my-nitro-module is a react native package built with Nitro
 
 ## Requirements
 
-- React Native v0.76.0 or higher
+- React Native v0.78.0 or higher
 - Node 24.0.0 or higher
 
 > [!IMPORTANT]  
