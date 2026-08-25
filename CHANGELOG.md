@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/[secure]/react-native-my-nitro-module/compare/v1.0.0...v1.0.1) (2026-08-25)
+
+### 🐛 Bug Fixes
+
+* update Node.js version requirement to 24.0.0 in README.md ([6fe78f3](https://github.com/[secure]/react-native-my-nitro-module/commit/6fe78f3d79ada9354a4e9acf8433a73d78419f64))
+
 ## 1.0.0 (2026-08-25)
 
 ### 🐛 Bug Fixes
