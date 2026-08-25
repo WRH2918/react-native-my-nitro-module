@@ -1,6 +1,6 @@
 {
   "name": "react-native-my-nitro-module",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "react-native-my-nitro-module is a react native package built with Nitro",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
@@ -42,7 +42,7 @@
   "workspaces": [
     "example"
   ],
-  "repository": "https://github.com/WRH2918/react-native-my-nitro-module.git",
+  "repository": "git@github-per:WRH2918/react-native-my-nitro-module.git",
   "author": "wuruihaohk01",
   "license": "MIT",
   "bugs": "https://github.com/WRH2918/react-native-my-nitro-module/issues",
