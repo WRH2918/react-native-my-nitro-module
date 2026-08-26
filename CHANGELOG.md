@@ -1,3 +1,9 @@
+## [1.1.0-beta.1](https://github.com/[secure]/react-native-my-nitro-module/compare/v1.0.3-beta.1...v1.1.0-beta.1) (2026-08-26)
+
+### ✨ Features
+
+* update Node version requirement to 26.0.0 in README.md ([9922669](https://github.com/[secure]/react-native-my-nitro-module/commit/992266964ae7a4595ca0de6e4b15a967352d5f1d))
+
 ## [1.0.3-beta.1](https://github.com/[secure]/react-native-my-nitro-module/compare/v1.0.2...v1.0.3-beta.1) (2026-08-26)
 
 ### 🐛 Bug Fixes
