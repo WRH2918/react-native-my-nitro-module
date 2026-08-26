@@ -1,3 +1,9 @@
+## [1.0.3-beta.1](https://github.com/[secure]/react-native-my-nitro-module/compare/v1.0.2...v1.0.3-beta.1) (2026-08-26)
+
+### 🐛 Bug Fixes
+
+* update branch configuration for semantic release to use 'development' and 'beta' prerelease ([39504ec](https://github.com/[secure]/react-native-my-nitro-module/commit/39504ec72829fc2b7ba46f968547d6d464e18457))
+
 ## [1.0.2](https://github.com/[secure]/react-native-my-nitro-module/compare/v1.0.1...v1.0.2) (2026-08-25)
 
 ### 🐛 Bug Fixes
