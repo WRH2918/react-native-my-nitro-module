@@ -1,3 +1,9 @@
+## [1.0.2](https://github.com/[secure]/react-native-my-nitro-module/compare/v1.0.1...v1.0.2) (2026-08-25)
+
+### 🐛 Bug Fixes
+
+* update React Native version requirement to 0.78.0 in README.md ([5ca31ff](https://github.com/[secure]/react-native-my-nitro-module/commit/5ca31ffbf8d6e68340e546616bdbee858d647c26))
+
 ## [1.0.1](https://github.com/[secure]/react-native-my-nitro-module/compare/v1.0.0...v1.0.1) (2026-08-25)
 
 ### 🐛 Bug Fixes
