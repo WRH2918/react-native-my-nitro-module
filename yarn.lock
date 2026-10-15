@@ -2553,21 +2553,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/git@npm:^10.0.1":
-  version: 10.0.1
-  resolution: "@semantic-release/git@npm:10.0.1"
+"@semantic-release/git@npm:^11.0.1":
+  version: 11.0.1
+  resolution: "@semantic-release/git@npm:11.0.1"
   dependencies:
-    "@semantic-release/error": ^3.0.0
-    aggregate-error: ^3.0.0
+    "@semantic-release/error": ^4.0.0
+    aggregate-error: ^5.0.0
     debug: ^4.0.0
     dir-glob: ^3.0.0
-    execa: ^5.0.0
-    lodash: ^4.17.4
+    execa: ^10.0.0
+    lodash-es: ^4.17.21
     micromatch: ^4.0.0
-    p-reduce: ^2.0.0
+    p-reduce: ^3.0.0
   peerDependencies:
-    semantic-release: ">=18.0.0"
-  checksum: b0a346acaf13d1bbd8d8d895bb0dee025dd6d4742769b5dd875018fff8fcfe0f5414299dbe1ed026e53b8f8b04eeceef49a3d56c5f6506016c656df95d2ced04
+    semantic-release: ">=20.1.0"
+  checksum: c6a888435da1e8887338d06bee240dff1ab414871af39ad4c483efa4f9ca09c1e0051eeb7d5e212169122ed1f451307c33e3c0abd8e7351264bf0d95b37cf5e9
   languageName: node
   linkType: hard
 
@@ -4992,6 +4992,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"execa@npm:^10.0.0":
+  version: 10.0.1
+  resolution: "execa@npm:10.0.1"
+  dependencies:
+    "@sindresorhus/merge-streams": ^4.0.0
+    figures: ^6.1.0
+    get-stream: ^9.0.1
+    human-signals: ^8.0.1
+    is-plain-obj: ^4.1.0
+    is-stream: ^4.0.1
+    npm-run-path: ^6.0.0
+    pretty-ms: ^9.3.0
+    signal-exit: ^4.1.0
+    strip-final-newline: ^4.0.0
+    which-command: ^0.1.0
+    yoctocolors: ^2.1.2
+  checksum: e8951843b1f665bfce7016137d2d7e17a01ca219beccf746b8a7815a17e77ac532ab63955339eebc36699377e79604d3da689f4f77e47d4b59850785ca1c6f79
+  languageName: node
+  linkType: hard
+
 "execa@npm:^4.0.3":
   version: 4.1.0
   resolution: "execa@npm:4.1.0"
@@ -5461,7 +5481,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"get-stream@npm:^9.0.0":
+"get-stream@npm:^9.0.0, get-stream@npm:^9.0.1":
   version: 9.0.1
   resolution: "get-stream@npm:9.0.1"
   dependencies:
@@ -8351,13 +8371,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p-reduce@npm:^2.0.0":
-  version: 2.1.0
-  resolution: "p-reduce@npm:2.1.0"
-  checksum: 99b26d36066a921982f25c575e78355824da0787c486e3dd9fc867460e8bf17d5fb3ce98d006b41bdc81ffc0aa99edf5faee53d11fe282a20291fb721b0cb1c7
-  languageName: node
-  linkType: hard
-
 "p-reduce@npm:^3.0.0":
   version: 3.0.0
   resolution: "p-reduce@npm:3.0.0"
@@ -8661,7 +8674,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pretty-ms@npm:^9.2.0":
+"pretty-ms@npm:^9.2.0, pretty-ms@npm:^9.3.0":
   version: 9.3.0
   resolution: "pretty-ms@npm:9.3.0"
   dependencies:
@@ -8928,7 +8941,7 @@ __metadata:
   dependencies:
     "@jamesacarr/eslint-formatter-github-actions": ^0.2.0
     "@semantic-release/changelog": ^6.0.3
-    "@semantic-release/git": ^10.0.1
+    "@semantic-release/git": ^11.0.1
     "@types/jest": ^29.5.12
     "@types/react": 19.2.0
     conventional-changelog-conventionalcommits: ^10.2.1
@@ -10767,6 +10780,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"which-command@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "which-command@npm:0.1.0"
+  bin:
+    which-command: cli.js
+  checksum: ab4e9a06c288e6b854034536bbea40d40b613b44190aeb2a5719c5aafe64456d4b3555afb23b434ae8324b18c194c4a45bc481131733baa2a9d73c630e408de1
+  languageName: node
+  linkType: hard
+
 "which-module@npm:^2.0.0":
   version: 2.0.1
   resolution: "which-module@npm:2.0.1"
@@ -11047,7 +11069,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yoctocolors@npm:^2.1.1":
+"yoctocolors@npm:^2.1.1, yoctocolors@npm:^2.1.2":
   version: 2.2.0
   resolution: "yoctocolors@npm:2.2.0"
   checksum: b19682ac2618bf404c260ea2b0201dee418d9f467194c2ea8fd538a7e7b4fef3d308968e6ff06975b84580448093f99fdfab0fedab95101bad85f752d1daa199
